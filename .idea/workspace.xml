@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ea4703b-3a5d-4a2e-b213-89126ed5a71b" name="Default Changelist" comment="3_2 finished">
-      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_abs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture1.py" afterDir="false" />
+    <list default="true" id="7ea4703b-3a5d-4a2e-b213-89126ed5a71b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture_autouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_5_marks/example_multiply_marks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_5_marks/test_example_skip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_5_marks/test_fixture10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_5_marks/test_fixture8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_5_marks/test_xfail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_fixture7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_ufo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_3_Pytest/ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_3_Pytest/ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_tests_3_2/some_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_tests_3_2/some_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dhqSjtUmC7azfSpzoGkD93mw2O" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tests" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -40,7 +54,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in last_task.py">
+  <component name="RunManager" selected="Python.date">
+    <configuration name="date" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stepik-auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_6_parametres_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\python\stepick\stepik-auto\3_6_parametres_test\test_date.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="some_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stepik-auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,27 +89,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_tests_3_2/some_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="stepik-auto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests_3_2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\python\stepick\stepik-auto\unit_tests_3_2\example_find_in.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.date" />
         <item itemvalue="Python tests.Unittests in last_task.py" />
         <item itemvalue="Python tests.Unittests in example_unittest.py" />
         <item itemvalue="Python.some_tests" />
         <item itemvalue="Python.test_abs_project" />
-        <item itemvalue="Python.task_2" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592988340704</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixtures">
+      <created>1592993665027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592993665027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +215,7 @@
     <MESSAGE value="check work" />
     <MESSAGE value="check work[2]" />
     <MESSAGE value="3_2 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="3_2 finished" />
+    <MESSAGE value="Fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixtures" />
   </component>
 </project>
