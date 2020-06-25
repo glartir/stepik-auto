@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea4703b-3a5d-4a2e-b213-89126ed5a71b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/firefox_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/test_confest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/test_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/test_rerun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_4_module/shablon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/conftest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593059011003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="conftest working good">
+      <created>1593067875643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593067875643</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +219,7 @@
     <MESSAGE value="3_2 finished" />
     <MESSAGE value="Fixtures" />
     <MESSAGE value="untill add test_contest.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="untill add test_contest.py" />
+    <MESSAGE value="conftest working good" />
+    <option name="LAST_COMMIT_MESSAGE" value="conftest working good" />
   </component>
 </project>
