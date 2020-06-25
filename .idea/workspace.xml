@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea4703b-3a5d-4a2e-b213-89126ed5a71b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_3_Pytest/test_fixture_autouse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_5_marks/example_multiply_marks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_5_marks/test_example_skip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_5_marks/test_fixture10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_5_marks/test_fixture8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_5_marks/test_xfail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_date.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_fixture7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_ufo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/firefox_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/test_confest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/test_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_parametres_test/test_contest_dir/test_rerun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good_links.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_tests_3_2/some_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_tests_3_2/some_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.date">
+  <component name="RunManager" selected="Python.firefox_test">
     <configuration name="date" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stepik-auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +68,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="firefox_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stepik-auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_6_parametres_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_6_parametres_test/firefox_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="some_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stepik-auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,27 +102,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_tests_3_2/some_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_abs_project" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="stepik-auto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests_3_2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_tests_3_2/test_abs_project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.firefox_test" />
         <item itemvalue="Python.date" />
         <item itemvalue="Python tests.Unittests in last_task.py" />
         <item itemvalue="Python tests.Unittests in example_unittest.py" />
         <item itemvalue="Python.some_tests" />
-        <item itemvalue="Python.test_abs_project" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592993665027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="untill add test_contest.py">
+      <created>1593059011003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593059011003</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +215,7 @@
     <MESSAGE value="check work[2]" />
     <MESSAGE value="3_2 finished" />
     <MESSAGE value="Fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixtures" />
+    <MESSAGE value="untill add test_contest.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="untill add test_contest.py" />
   </component>
 </project>

@@ -1,0 +1,2 @@
+https://pytest-docs-ru.readthedocs.io/ru/latest/parametrize.html
+https://pytest-docs-ru.readthedocs.io/ru/latest/mark.html#mark
